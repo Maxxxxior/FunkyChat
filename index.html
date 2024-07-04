@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Messenger</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="first-div" class="first-div">
+            <div class="chat-message-container" id="chat-container"></div>
+        </div>
+
+        <div class="second-div">
+            <label for="person1">Osoba 1</label>
+            <textarea id="person1" class="chat1_area" cols="30" rows="5" required="true" maxlength="2000" placeholder="Tu wpisz tekst..."></textarea>
+            <span class="emoji">&#x1F49C;</span>
+            <span class="emoji">&#x1F606;</span>
+            <span class="emoji">&#x1F60E;</span>
+            <span class="emoji">&#x1F62D;</span>
+            <span class="emoji">&#x1F975;</span>
+            <span class="emoji">&#x1F633;</span>
+            <span class="alert1">Nie wpisałeś tekstu</span>
+            <button id="send1" class="send1" type="submit">WYŚLIJ</button>
+        </div>
+        <div class="third-div">
+            <label for="person2">Osoba 2</label>
+            <textarea id="person2" class="chat2_area" cols="30" rows="5" required="true" maxlength="2000" placeholder="Tu wpisz tekst..."></textarea>
+            <span class="emoji">&#x1F49C;</span>
+            <span class="emoji">&#x1F606;</span>
+            <span class="emoji">&#x1F60E;</span>
+            <span class="emoji">&#x1F62D;</span>
+            <span class="emoji">&#x1F975;</span>
+            <span class="emoji">&#x1F633;</span>
+            <span class="alert2">Nie wpisałeś tekstu</span>
+            <button id="send2" class="send2" type="submit">WYŚLIJ</button>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
